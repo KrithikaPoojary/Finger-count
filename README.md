@@ -55,6 +55,7 @@ Ensure your webcam is connected and active.
 
 
 
+
 How It Works:
 
 
@@ -71,6 +72,7 @@ Logic is applied to detect which fingers are up based on joint positions
 
 
 Displays the count in real time
+
 
 
 
