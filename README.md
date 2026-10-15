@@ -1,78 +1,35 @@
-﻿\# Finger-count
+# Finger-Count
 
 A real-time hand gesture recognition system to count fingers using Python, OpenCV, and MediaPipe.
 
+## Features
+- Real-time webcam integration
+- Hand tracking using MediaPipe
+- Finger counting using hand landmarks
 
+## Technologies Used
+- Python
+- OpenCV
+- MediaPipe
 
-Overview:
+## Installation
 
-Fingercount captures live webcam input and uses computer vision techniques to detect hands and count the number of fingers shown. It combines the power of OpenCV for video processing and Google's MediaPipe for hand tracking.
+Install the required libraries:
 
-
-
-\## Features
-
-
-
-\- Real-time webcam integration
-
-\- Hand tracking using MediaPipe
-
-\- Accurate finger counting using landmarks
-
-\- Lightweight and beginner-friendly
-
-
-
-\## Requirements
-
-
-
-Make sure Python 3 is installed, then install the required libraries:
-
-
-
-
+```bash
 pip install opencv-python mediapipe
+```
 
+## How to Run
 
+Make sure your webcam is connected and run:
 
-
-
-How to Run:
-
-Run the following command in your terminal:
-
-
-
+```bash
 python FingerML.py
+```
 
-
-
-Ensure your webcam is connected and active.
-
-
-
-
-
-
-How It Works:
-
-
-Captures video from webcam using OpenCV
-
-
-
-Uses MediaPipe to detect hand landmarks
-
-
-
-Logic is applied to detect which fingers are up based on joint positions
-
-
-
-Displays the count in real time
-
-
-
-
+## How It Works
+1. Captures live video using OpenCV.
+2. Detects hand landmarks using MediaPipe.
+3. Identifies raised fingers based on landmark positions.
+4. Displays the finger count in real time.
